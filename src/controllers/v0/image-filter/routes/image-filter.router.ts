@@ -1,6 +1,6 @@
 import express, { Router, Request, Response } from 'express';
 import bodyParser from 'body-parser';
-import {filterImageFromURL, deleteLocalFiles} from './util/util';
+import {filterImageFromURL} from './util/util';
 const request = require("request");
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
